@@ -45,7 +45,7 @@ const Home = () => {
           <h1 className="pt-2 pb-8 text-6xl sm:text-7xl font-bold text-black">
             Hi, I'm{" "}
             <span
-              id="Vamsi"
+              id="Pavan"
               className="bg-gradient-to-b from-transparent to-yellow-300"
             >
               Pavan Kumar Vipparla
@@ -63,24 +63,24 @@ const Home = () => {
           </h2>
           <div className="py-4 flex space-x-4">
             <a
-              href="https://github.com/pbsvk"
+              href="https://github.com/pkchoudary"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub size={30} className="hover:text-purple1" />
             </a>
             <a
-              href="https://www.linkedin.com/in/pbsvk/"
+              href="https://www.linkedin.com/in/pavan-kumar-vipparla-86b30828a/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin size={30} className="hover:text-purple1" />
             </a>
-            <a href="mailto:bsvkpadala@gmail.com">
+            <a href="mailto:vipparlapavankumar2001@gmail.com">
               <HiOutlineMail size={30} className="hover:text-purple1" />
             </a>
             <a
-              href="https://www.dropbox.com/scl/fi/7lstkrdu4npr2ti7hbbwt/Vamsi_Resume.pdf?rlkey=i77hvmrh1cszxry588b355dnt&st=8bk1ei6j&dl=0"
+              href="https://drive.google.com/file/d/1lfFhWMRhu1lta8D5AwUHcGUgnQ2zTEl4/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
