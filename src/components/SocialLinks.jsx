@@ -13,7 +13,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://www.linkedin.com/in/pbsvk/',
+      href: 'https://www.linkedin.com/in/pavan-kumar-vipparla-86b30828a/',
       style: 'rounded-tr-md'
     },
     {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
           Github <FaGithub size={30} />
         </>
       ),
-      href: 'https://github.com/pbsvk',
+      href: 'https://github.com/pkchoudary',
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
           E-Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: 'mailto:bsvkpadala@gmail.com',
+      href: 'vipparlapavankumar2001@gmail.com',
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsPaperclip size={30} />
         </>
       ),
-      href: 'https://www.dropbox.com/scl/fi/byl5o2x68dha5xfppsmin/PBSVK_Resume.pdf?rlkey=q8dqdqvr0som555ztyjz2t8ii&st=1jq1ffft&dl=0',
+      href: 'https://drive.google.com/file/d/1lfFhWMRhu1lta8D5AwUHcGUgnQ2zTEl4/view?usp=sharing',
       style: 'rounded-br-md',
     },
   ];
