@@ -1,5 +1,5 @@
 import './App.css';
-import backgroundVideo from "./assets/background-video.mp4";
+import backgroundVideo from "/src/assets/background-video.mp4";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";

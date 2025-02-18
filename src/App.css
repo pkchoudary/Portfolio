@@ -94,7 +94,7 @@
   justify-content: center;
   height: 100vh;
   background: linear-gradient(to right, #6b46c1, #9f37db);
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -144,7 +144,7 @@
   height: 12px;
   border-radius: 50%;
   background: #9f37db;
-  border: 3px solid #fff;
+  border: 3px solid #ffffff;
   box-shadow: 0 0 10px rgba(159, 55, 219, 0.5);
 }
 
