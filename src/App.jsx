@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import NavBar from "./components/Navbar";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-
+import Skills3D from "./components/Skills3D";
 
 function App() {
   return (
