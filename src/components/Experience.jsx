@@ -3,42 +3,89 @@ import "../App.css";
 
 const Skills = () => {
   const experienceTimelineData = [
+    
     {
-      "key": "001",
-      "dateText": "Sep 2024 - Dec 2024",
-      "title": "The P Foundation",
-      "subtitle": "Full-Stack Web Developer with AI Focus",
-      "details": [
-        "Location: Norman, Oklahoma, United States",
-        "Developed a high-performance AI-driven web platform using JavaScript, Python, and Java, implementing scalable frontend features for personalized user experiences.",
-        "Engineered a secure authentication system with OTP verification to ensure user data security and seamless interaction with the platform.",
-        "Integrated RESTful APIs and microservices to enhance platform scalability and maintainability."
+      key: "001",
+      dateText: "Sep 2024 - Present",
+      title: "StreamX",
+      subtitle: "Founder & Lead Developer",
+      details: [
+        "Location: United States · Remote",
+        "Built a cross-platform movie/TV discovery app using React, TypeScript & Capacitor.",
+        "Integrated Firebase Authentication and created real-time search, watchlists, and filters.",
+        "Optimized SEO & ASO with branded assets, metadata, and Play Store polish."
       ]
     },
     {
-      "key": "002",
-      "dateText": "May 2024 - Aug 2024",
-      "title": "The P Foundation",
-      "subtitle": "Data Science and Product Developer Intern",
-      "details": [
-        "Location: Norman, Oklahoma, United States",
-        "Developed and optimized deep learning models using Python, TensorFlow, and Keras to achieve high detection accuracy (95%) for medical image analysis (Glaucoma and Cataract).",
-        "Managed and transformed large datasets (10,000+ images) through preprocessing and augmentation to improve model accuracy and reduce training time, leveraging Python, TensorFlow, and Keras.",
-        "Automated ML workflows, streamlining data preprocessing, training, and evaluation to improve efficiency."
+      key: "002",
+      dateText: "Oct 2024 - Present",
+      title: "PersonalBudget",
+      subtitle: "Founder & Lead Developer",
+      details: [
+        "Location: United States · Remote",
+        "Developed a React + Capacitor personal finance app with Firebase Authentication & Firestore.",
+        "Created interactive dashboards and deployed app to Google Play with full ASO presence."
       ]
     },
     {
-      "key": "003",
-      "dateText": "Jun 2020 - Jun 2023",
-      "title": "SRI SAI VIVEKA TECHNOLOGIES (SSVT)",
-      "subtitle": "Web Developer",
-      "details": [
-        "Location: Hyderabad, Telangana, India",
-        "Redesigned a web-based packaging solutions portal, boosting customer engagement by 40% through enhanced interactivity and intuitive navigation.",
-        "Developed responsive and accessible web applications using HTML5, CSS3, JavaScript, and React.js, ensuring seamless functionality across all devices.",
-        "Integrated APIs and optimized front-end performance, collaborating with back-end developers to enhance data interaction and user experience."
+      key: "003",
+      dateText: "Nov 2024 - Present",
+      title: "TicTacToe",
+      subtitle: "Founder & Lead Developer",
+      details: [
+        "Location: United States · Remote",
+        "Built modern Tic Tac Toe using HTML, CSS, JS with smooth animations & custom win logic.",
+        "Ported to Android via CapacitorJS and launched on Play Store with staged rollout.",
+        "Planned features: score tracking, AI difficulty, and real-time multiplayer."
       ]
-    }    
+    },
+    {
+      key: "004",
+      dateText: "Sep 2024 - Dec 2024",
+      title: "The P Foundation",
+      subtitle: "Full-Stack Web Developer with AI Focus",
+      details: [
+        "Location: United States · Remote",
+        "Developed a high-performance AI-driven web platform on Replit.com for human behavior analysis, delivering personalized recommendations.",
+        "Engineered a secure authentication system with OTP verification and automated AI-generated insights for seamless UX.",
+        "Streamlined secure login workflows and built user-friendly interfaces to optimize engagement."
+      ]
+    },
+    {
+      key: "005",
+      dateText: "May 2024 - Aug 2024",
+      title: "The P Foundation",
+      subtitle: "Data Science and Product Developer Intern",
+      details: [
+        "Location: United States · Remote",
+        "Built a deep learning model for eye disease detection with 95% accuracy (Glaucoma & Cataract).",
+        "Processed and augmented over 10,000 images to optimize model performance using TensorFlow and Keras.",
+        "Automated ML workflows and integrated advanced data pipelines to increase training efficiency."
+      ]
+    },
+    {
+      key: "006",
+      dateText: "Jan 2015 - Aug 2023",
+      title: "Danalaxmi General Store",
+      subtitle: "Technical Operations Assistant",
+      details: [
+        "Location: Hyderabad, Telangana, India · On-site",
+        "Digitized inventory/sales tracking via Excel and Google Sheets, improving accuracy.",
+        "Maintained POS systems and supported basic software troubleshooting.",
+        "Collaborated with management on workflow optimization and analytics."
+      ]
+    },
+    {
+      key: "007",
+      dateText: "Jun 2020 - Jun 2023",
+      title: "Sri Sai Viveka Technologies (SSVT)",
+      subtitle: "Web Developer",
+      details: [
+        "Location: India · Hybrid",
+        "Developed web apps using HTML, CSS, JS, PHP, MySQL, and React.js.",
+        "Created responsive UIs and optimized API integration for performance."
+      ]
+    }
   ];
 
   return (
