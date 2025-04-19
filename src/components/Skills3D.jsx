@@ -7,13 +7,11 @@ const skills = [
   { name: 'HTML5', src: '/logos/html5.png' },
   { name: 'CSS3', src: '/logos/css3.png' },
   { name: 'React.js', src: '/logos/react.png' },
-  { name: 'Vue.js', src: '/logos/vue.png' },
   { name: 'Spring Boot', src: '/logos/spring.png' },
   { name: 'Node.js', src: '/logos/nodejs.png' },
   { name: 'MySQL', src: '/logos/mysql.png' },
   { name: 'MongoDB', src: '/logos/mongodb.png' },
   { name: 'Postman', src: '/logos/postman.png' },
-  { name: 'Jenkins', src: '/logos/jenkins.png' },
   { name: 'Vercel', src: '/logos/vercel.png' }
 ];
 
