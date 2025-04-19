@@ -8,34 +8,35 @@ import Footer from "./components/Footer";
 import NavBar from "./components/Navbar";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-
+import Skills3D from "./components/Skills3D"; // New Skills Component
 
 function App() {
   return (
     <div>
       <div className="relative min-h-screen">
-      {/* Background Video */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="fixed top-0 left-0 min-w-full min-h-full object-cover z-[-1]"
-      >
-        <source src={backgroundVideo} type="video/mp4" />
-      </video>
-   
-      <div>
-      <NavBar/>
-      <Home />
-      <About />
-      <Education />
-      <Experience />
-      <Portfolio />
-      <Contact />
-      <Footer />
+        {/* Background Video */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="fixed top-0 left-0 min-w-full min-h-full object-cover z-[-1]"
+        >
+          <source src={backgroundVideo} type="video/mp4" />
+        </video>
+
+        <div>
+          <NavBar />
+          <Home />
+          <About />
+          <Education />
+          <Experience />
+          <Skills3D />  {/* Skills Section */}
+          <Portfolio />
+          <Contact />
+          <Footer />
         </div>
-    </div>
+      </div>
     </div>
   );
 }
